@@ -471,6 +471,27 @@ b, strong {
     bottom: 50px;
   }
 }
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+  /* slider */
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+  
+  /* works */
+  
+  
+  /* team */
+  
+  .member-thumb {
+    width: auto;
+  }
+  
+  }
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
@@ -493,6 +514,7 @@ b, strong {
     padding: 0 2rem;
   }
 }
+
 @media (max-width: 767px) {
   h1 {
     font-size: 2.4em;
